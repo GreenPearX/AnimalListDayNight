@@ -1,2 +1,37 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+static void Main(string[] args)
+        {
+            /*var forest = new List<Animals>();
+            forest.Add = ("Varg");
+            forest.Add = ("Fladdermus");
+            forest.Add = ("Delfin");
+            forest.Add = ("Örn");
+            forest.Add = ("Häst");*/
+
+            Console.ReadLine();
+
+        }
+        static void Animal()
+        {
+
+             Animals a = new Animals();
+             a.AnimalV = "Varg";
+             a.AnimalF = "Fladdermus";
+             a.AnimalD = "Delfin";
+             a.AnimalÖ = "Örn";
+             a.AnimalH = "Häst";
+             a.Nocturnal = false;
+        }
+
+    }
+    class Animals
+    {
+        public string AnimalV { get; set; }
+        public string AnimalF { get; set; }
+        public string AnimalD { get; set; }
+        public string AnimalÖ { get; set; }
+        public string AnimalH { get; set; }
+        public bool Nocturnal { get; set; }
+    }
